@@ -4,10 +4,10 @@ echo "Enter the age for the person"
 
 read age
 
-if [ age > 18 ] then ;
+if [ age -gt 18 ] then ;
 	echo "The person is major"
 
-elif [ age < 18 ] then ;
+elif [ age -lt 18 ] then ;
 
 	echo "The person is minor'
 
